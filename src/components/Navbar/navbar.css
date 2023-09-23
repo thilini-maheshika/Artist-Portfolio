@@ -1,0 +1,143 @@
+
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  object-fit: cover;
+  height: 7rem;
+  width: 8rem;
+  margin-top: 1rem;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 1rem;
+}
+
+.menu-toggle .bar {
+  background-color: rgb(12, 158, 134);
+  height: 4px;
+  width: 30px;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.desktopMenuListItem {
+  margin: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.desktopMenuListItem:hover {
+  color: rgb(12, 158, 134);
+  padding-bottom: 0.5rem;
+  border-bottom: 8px solid rgb(12, 158, 134);
+}
+
+.contactbtn {
+  background: white;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.desktopmenuImg {
+  object-fit: cover;
+  height: 1.6rem;
+  width: 1.6rem;
+  margin: 1rem;
+}
+
+
+@media screen and (max-width: 840px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .desktopMenu {
+    display: none;
+    position: absolute;
+  }
+
+  .desktopMenu.open {
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+    right: 2rem;
+    background: rgb(103 117 115);
+    min-width: 15rem;
+    border-radius: 1rem;
+  }
+
+  .desktopMenuListItem {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .contactbtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width:720px) {
+    .desktopMenu {
+        display: none;
+        position: absolute;
+        font-size: small;
+      }
+    
+      .contactbtn {
+        display: none;
+      }
+
+      .desktopMenu.open {
+        display: flex;
+        flex-direction: column;
+        top: 4rem;
+        right: 2rem;
+        background: rgb(103 117 115);
+        min-width: 9rem;
+        border-radius: 1rem;
+      }
+
+      .navbar {
+        height: 5rem;
+        width: 100vw;
+        margin: 0 auto;
+        max-width: 80rem;
+        padding: 0 2rem;
+        display: flex;
+        top: 0;
+        z-index: 2;
+      }
+
+      .logo {
+        margin-left: -2rem; /* You can adjust this value to fine-tune the alignment */
+      }
+
+}
