@@ -21,9 +21,9 @@ const Navbar = () => {
       </div>
       <div className={`desktopMenu ${isMenuOpen ? 'open' : ''}`}>
         <Link to='home' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Home</Link>
-        <Link to='about' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>About</Link>
-        <Link to='portfolio' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Portfolio</Link>
-        <Link to='events' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Events</Link>
+        <Link to='about' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Portfolio</Link>
+        <Link to='portfolio' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Events</Link>
+        <Link to='events' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Contact</Link>
       </div>
       <button className='contactbtn'>
         <img src={contactImg} alt='' className='desktopmenuImg' /> Contact Me

@@ -1,0 +1,99 @@
+#about {
+    overflow: hidden;
+    width: 100%;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-size: 0.9rem;
+    font-weight: 200;
+    max-width: 60rem;
+    padding: 0 2rem;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.audiocard {
+
+    margin: 0.5rem auto ;
+}
+
+.audio-progress {
+    width: 50%;
+    height: 8px; 
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .progress-line {
+    height: 100%;
+    background-color: rgb(12, 158, 134); 
+    transition: width 0.1s ease; 
+  }
+  
+
+@media screen and (max-width:840px){
+    .skillTitle {
+        padding-top: 0.1rem;
+        font-size: 2.5rem;
+    }
+
+    .skillDesc {
+        font-size: 2.5vw;
+        font-weight: 200;
+        max-width: 45rem;
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width:840px){
+
+    .audiocard {
+
+        margin: 1rem auto ;
+    }
+
+}
+
+@media screen and (max-width:720px){
+
+    .skillTitle {
+        padding-top: 0.3rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    
+    .skillTitle {
+        font-size: 1.2rem;
+    }
+
+    .skillDesc {
+        font-size: 2.2vw;
+        font-weight: 200;
+        max-width: 22rem;
+        padding: 0 -0.07rem;
+        margin-top: -2rem;
+    }
+}
