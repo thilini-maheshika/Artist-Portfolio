@@ -5,7 +5,7 @@
   width: 100vw;
   margin: 0 auto;
   max-width: 80rem;
-  padding: 2rem 1rem;
+  padding: 1.7rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,6 +114,24 @@
   .contactbtn {
     display: none;
   }
+}
+
+@media screen and (max-width:1280px) {
+  
+  .desktopMenuListItem {
+    font-size: 1.3rem;
+  }
+
+  .contactbtn {
+    font-size: 1rem;
+  }
+
+  .desktopmenuImg {
+    height: 2rem;
+    width: 2rem;
+  }
+  
+
 }
 
 @media screen and (max-width:720px) {

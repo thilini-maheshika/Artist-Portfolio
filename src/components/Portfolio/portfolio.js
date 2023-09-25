@@ -80,7 +80,7 @@ function Portfolio() {
 
   return (
     <section id="about">
-      <span className="skillTitle">Explore My Musical Journey</span>
+      <span className="aboutTitle">Explore My Musical Journey</span>
       <br />
       <span className="skillDesc">
         Welcome to my musical portfolio, a kaleidoscope of sonic adventures that
