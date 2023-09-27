@@ -1,6 +1,6 @@
 # Artist-Portfolio
-This is a web application for a musician's portfolio. It includes a home page, an about section, and an event section where you can add, view, update, and delete events.
-By clicking on the date, the Event Adding form will appear. And the table fetches the events, and it will allow you to edit and delete events.
+This is a web application for a musician's portfolio. It includes a home page, an about section, and an event section where you can add, view, update, and delete events.By clicking on the date, the Event Adding form will appear. And the material react table fetches the events, and it will allow you to edit and delete events.
+Basically I used MUI for the Design.
 Additionally, there's a contact form (note that the API for this form is not implemented).
 
 01 ) Prerequisites : 
