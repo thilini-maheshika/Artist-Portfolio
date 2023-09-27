@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "4fdf8f6b-dcf4-4e19-afce-670c828894dd",
+		"name": "Portfolio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15473278"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3004/addEvent/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"eventName\" : \"ABC\",\r\n    \"eventDate\": \"2023.01.01\",\r\n    \"eventTime\": \"10.00\",\r\n    \"EventLocation\": \"Galle\",\r\n    \"eventDescription\": \"String\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/addEvent/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"addEvent",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3004/getEvents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/getEvents",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"getEvents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3004/update/65131a5e811f037f447c25f3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"eventName\" : \"ABC2\",\r\n    \"eventDate\": \"2023.01.01\",\r\n    \"eventTime\": \"10.00\",\r\n    \"EventLocation\": \"Galle\",\r\n    \"eventDescription\": \"String\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/update/65131a5e811f037f447c25f3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"update",
+						"65131a5e811f037f447c25f3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3004/delete/65131a5e811f037f447c25f3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/delete/65131a5e811f037f447c25f3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"delete",
+						"65131a5e811f037f447c25f3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3004/getEventById/65131a7b5f128afae3b89032",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/getEventById/65131a7b5f128afae3b89032",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"getEventById",
+						"65131a7b5f128afae3b89032"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
