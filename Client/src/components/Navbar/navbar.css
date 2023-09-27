@@ -155,6 +155,10 @@
         border-radius: 1rem;
       }
 
+      .desktopMenuListItem {
+        font-size: 1rem;
+      }
+
       .navbar {
         height: 5rem;
         width: 100vw;
@@ -183,6 +187,10 @@
     display: flex;
     top: 0;
     z-index: 2;
+  }
+
+  .desktopMenuListItem {
+    font-size: 0.8rem;
   }
 
   .menu-toggle {

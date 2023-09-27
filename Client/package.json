@@ -15,6 +15,7 @@
     "@mui/material": "^5.14.10",
     "axios": "^1.5.0",
     "formic": "^0.0.10",
+    "material-react-table": "^1.15.0",
     "react": "^18.0.0",
     "react-calendar": "^4.6.0",
     "react-dom": "^18.0.0",
