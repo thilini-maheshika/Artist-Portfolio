@@ -175,6 +175,7 @@ function Calendar() {
   return (
     <section id="event">
       <span className="eventTitle">Events</span>
+      <h4>Click the Date to Add Event Information</h4>
       <div className="calendarSec">
         <FullCalendar
           plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}

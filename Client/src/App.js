@@ -18,12 +18,6 @@ function App() {
       <Calendar />
       <ToastContainer />
       <Contact />
-
-        {/* <Route exact path="" component={Navbar}/>
-        <Route exact path="" component={Intro}/>
-        <Route exact path="" component={Portfolio}/>
-        <Route exact path="" component={Calendar}/>
-        <Route exact path="" component={Contact}/> */}
     </div>
   );
 }
