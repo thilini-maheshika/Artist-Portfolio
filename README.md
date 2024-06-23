@@ -26,8 +26,6 @@ Install the dependencies for the server:
     npm start
 
 Web Application will run at http://localhost:3000.
-MongoDB Connection String :
-  mongodb+srv://Thilini:12345@cluster0.wwssvno.mongodb.net/?retryWrites=true&w=majority
 
 * By using Mongodb Compass can connect to the cluster using above string.And it will fetch the database and values.
 
